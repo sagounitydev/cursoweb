@@ -1,27 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi primer documento html</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">  
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Chachi Slider</title>
 </head>
-
 <body>
-    <header>
-        <img src="img/img_arcade_1.avif" alt="Foto de la cabecera" style="width:100%;">
-    </header>
-    <section>
-        <h1>Título de la página</h1>
-        <h3>Subtítulo de la página</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ipsum hic quasi quam nostrum corrupti
-            laboriosam
-            mollitia aliquid, tenetur rerum maxime eius assumenda? Magni, ipsa aspernatur. Porro aliquid dolore quam.
-        </p>
-        <h2>Título 2 de la página</h2>
-        <h3>Subtítulo 2 de la página</h3>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <a href="https://google.com">Este es el hipervinculo que te lleva a google</a>Necessitatibus asperiores nemo ipsum velit rerum quibusdam quia, vero sed sunt commodi mollitia perferendis possimus neque est dignissimos porro quas numquam dolore!</p>
-    </section>
+    <div class="container">
+        <div class="slide">
+            <!--===== Item Start =====-->
+            <div class="item" style="background-image: url(img/paisaje-1.jpg);">
+                <div class="content">
+                    <div class="name">El Lago</div>
+                    <div class="des">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus alias aliquid ut.</div>
+                    <button>Saber más</button>
+                </div>
+            </div>
+            <!--===== Item End =====-->
+            <!--===== Item Start =====-->
+            <div class="item" style="background-image: url(img/paisaje-2.jpg);">
+                <div class="content">
+                    <div class="name">En la montaña</div>
+                    <div class="des">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus alias aliquid ut.</div>
+                    <button>Saber más</button>
+                </div>
+            </div>
+            <!--===== Item End =====-->
+            <!--===== Item Start =====-->
+            <div class="item" style="background-image: url(img/paisaje-3.jpg);">
+                <div class="content">
+                    <div class="name">Carretera al infierno</div>
+                    <div class="des">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus alias aliquid ut.</div>
+                    <button>Saber más</button>
+                </div>
+            </div>
+            <!--===== Item End =====-->
+            <!--===== Item Start =====-->
+            <div class="item" style="background-image: url(img/paisaje-4.jpg);">
+                <div class="content">
+                    <div class="name">Piedras en el camino</div>
+                    <div class="des">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus alias aliquid ut.</div>
+                    <button>Saber más</button>
+                </div>
+            </div>
+            <!--===== Item End =====-->
+            <!--===== Item Start =====-->
+            <div class="item" style="background-image: url(img/paisaje-5.jpg);">
+                <div class="content">
+                    <div class="name">The old style</div>
+                    <div class="des">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus alias aliquid ut.</div>
+                    <button>Saber más</button>
+                </div>
+            </div>
+            <!--===== Item End =====-->
+            <!--===== Item Start =====-->
+            <div class="item" style="background-image: url(img/paisaje-6.jpg);">
+                <div class="content">
+                    <div class="name">Reflejos</div>
+                    <div class="des">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus alias aliquid ut.</div>
+                    <button>Saber más</button>
+                </div>
+            </div>
+            <!--===== Item End =====-->
+            <!--===== Item Start =====-->
+            <div class="item" style="background-image: url(img/paisaje-7.jpg);">
+                <div class="content">
+                    <div class="name">De agujeros en montañas</div>
+                    <div class="des">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus alias aliquid ut.</div>
+                    <button>Saber más</button>
+                </div>
+            </div>
+            <!--===== Item End =====-->
+            <!--===== Item Start =====-->
+            <div class="item" style="background-image: url(img/paisaje-8.jpg);">
+                <div class="content">
+                    <div class="name">Buscando calma</div>
+                    <div class="des">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus alias aliquid ut.</div>
+                    <button>Saber más</button>
+                </div>
+            </div>
+            <!--===== Item End =====-->            
+        </div>
+        <div class="button">
+            <button class="prev"><i class="fa-solid fa-arrow-left"></i></button>
+            <button class="next"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
 </body>
-
 </html>
